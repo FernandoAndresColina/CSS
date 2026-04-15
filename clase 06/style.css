@@ -1,0 +1,73 @@
+/* Estilos generales de la página */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+  color: #666;
+}
+
+/* --- TUS SELECTORES --- */
+
+/* 1. Selecciona los div hijos de otro div */
+div > div {
+  background-color: #e3f2fd;
+  border: 2px solid #2196f3;
+  padding: 10px;
+}
+
+/* 2. Selecciona todos los hijos directos de un elemento específico */
+.contenedor-hijos > * {
+  border: 2px dashed #ff9800;
+}
+
+/* 3. Selecciona los p que sean hijos de article */
+article > p {
+  font-weight: bold;
+}
+
+/* 4. Selecciona los p que estén dentro de un article (cualquier nivel) */
+article p {
+  text-decoration: underline;
+  color: #2e7d32;
+}
+
+/* 5. Selecciona los títulos h1 y los h2 (Agrupación) */
+h1,
+h2 {
+  color: #4a148c;
+  border-bottom: 1px solid #eee;
+}
+
+/* 6. Selecciona los ol que estén dentro de body */
+body ol {
+  background-color: #fff3e0;
+}
+
+/* 7. Clase “amarillo” */
+.amarillo {
+  background-color: yellow;
+}
+
+/* 8. Clase headertitle hija de header */
+header > .headertitle {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #c62828;
+}
