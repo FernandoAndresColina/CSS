@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demostración de Selectores CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span class="headertitle">Mi Documento de Selectores</span>
+    </header>
+
+    <div class="container">
+      <h1>Título H1</h1>
+      <h2>Título H2 (Seleccionados en grupo)</h2>
+
+      <section>
+        <span class="label">1. Divs hijos de otro Div (div > div):</span>
+        <div class="padre">
+          Soy el Div Padre
+          <div>Soy el Div Hijo (Tengo borde azul)</div>
+        </div>
+      </section>
+
+      <section class="contenedor-hijos">
+        <span class="label"
+          >2. Todos los hijos directos de este section (.contenedor-hijos >
+          *):</span
+        >
+        <p>Párrafo hijo (con borde naranja)</p>
+        <button>Botón hijo (con borde naranja)</button>
+      </section>
+
+      <section>
+        <span class="label"
+          >3 y 4. P dentro de Article (Hijos vs Descendientes):</span
+        >
+        <article>
+          <p>Soy hijo directo (Tengo negrita y subrayado)</p>
+          <div>
+            <p>Soy descendiente/nieto (Solo tengo subrayado)</p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <span class="label">6. Lista OL dentro de Body:</span>
+        <ol>
+          <li>Elemento de lista 1</li>
+          <li>Elemento de lista 2</li>
+        </ol>
+      </section>
+
+      <section>
+        <span class="label">7. Clase Amarillo (.amarillo):</span>
+        <p class="amarillo">Este párrafo es amarillo.</p>
+        <span class="amarillo">Este span también.</span>
+      </section>
+    </div>
+  </body>
+</html>
