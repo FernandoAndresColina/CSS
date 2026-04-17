@@ -1,0 +1,84 @@
+/* Estilos base para visualización */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f0f2f5;
+}
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* --- RESOLUCIÓN DEL EJERCICIO --- */
+
+/* 1. El primer elemento <a> hijo de <p> */
+p > a:first-child {
+  color: blue;
+  font-weight: bold;
+}
+
+/* 2. Selecciona los checkbox que estén marcados, hijos de un <form> */
+form > input[type="checkbox"]:checked {
+  box-shadow: 0 0 5px 2px rgba(0, 255, 0, 0.5);
+  transform: scale(1.5);
+}
+
+/* 3. Selecciona el último <p> que sea descendiente de <article> */
+/* Usamos descendiente (espacio) y last-of-type para mayor precisión */
+article p:last-of-type {
+  text-decoration: underline;
+  color: #d32f2f;
+}
+
+/* 4. Seleccionar el segundo hijo de un elemento section */
+section > *:nth-child(2) {
+  background-color: #fff9c4;
+}
+
+/* 5. Seleccionar los hijos pares de un elemento ol */
+/* 'even' significa pares */
+ol > li:nth-child(even) {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* 6. Seleccionar el antepenúltimo li de un ul (longitud indefinida) */
+/* n-3 contando desde el final */
+ul li:nth-last-child(3) {
+  color: orange;
+  font-weight: bold;
+}
+
+/* 7. El segundo <a> de dentro de un <p> */
+p a:nth-of-type(2) {
+  background: #e1f5fe;
+}
+
+/* 8. Los button que sean hijos únicos */
+button:only-child {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #6200ee;
+  color: white;
+  border: none;
+}
+
+/* 9. Los span que sean primeros hijos de un div (o cualquier contenedor) */
+div > span:first-child {
+  font-style: italic;
+}
+
+/* 10. Penúltimo hijo de body */
+body > *:nth-last-child(2) {
+  border: 2px solid purple;
+  padding: 10px;
+}
