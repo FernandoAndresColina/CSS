@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio de Selectores Avanzados</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Selectores Avanzados CSS</h1>
+    </header>
+
+    <div class="container">
+      <section>
+        <h3>1. Primer enlace hijo de P</h3>
+        <p>
+          <a href="#">Este enlace es el primero (Azul)</a>
+          <a href="#">Este es el segundo</a>
+        </p>
+      </section>
+
+      <section>
+        <h3>2. Checkbox marcados en Form</h3>
+        <form>
+          <input type="checkbox" checked /> Marcado (Brilla)
+          <input type="checkbox" /> Sin marcar
+        </form>
+      </section>
+
+      <section>
+        <h3>3. Último P de un Article</h3>
+        <article>
+          <p>Primer párrafo.</p>
+          <div>
+            <p>Último párrafo descendiente (Subrayado).</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="ejemplo-segundo">
+        <h3>4. Segundo hijo de section</h3>
+        <p>Primer hijo (p)</p>
+        <p>Segundo hijo (p seleccionado)</p>
+        <p>Tercer hijo (p)</p>
+      </section>
+
+      <section>
+        <h3>5. Hijos pares de un OL</h3>
+        <ol>
+          <li>Uno (impar)</li>
+          <li>Dos (par seleccionado)</li>
+          <li>Tres (impar)</li>
+          <li>Cuatro (par seleccionado)</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>6. Antepenúltimo LI</h3>
+        <ul>
+          <li>Elemento</li>
+          <li>Antepenúltimo (Seleccionado)</li>
+          <li>Penúltimo</li>
+          <li>Último</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>7. Botón hijo único</h3>
+        <div class="caja-boton">
+          <button>Soy hijo único (Grande)</button>
+        </div>
+        <div class="caja-boton">
+          <button>No soy</button>
+          <button>único</button>
+        </div>
+      </section>
+    </div>
+
+    <p class="nota">Soy un elemento al final del body.</p>
+    <p>Yo soy el último hijo del body.</p>
+  </body>
+</html>
