@@ -39,7 +39,7 @@ article p:last-of-type {
 }
 
 /* 4. Seleccionar el segundo hijo de un elemento section */
-section > *:nth-child(2) {
+section > *:nth-child(3) {
   background-color: #fff9c4;
 }
 
@@ -58,7 +58,7 @@ ul li:nth-last-child(3) {
 }
 
 /* 7. El segundo <a> de dentro de un <p> */
-p a:nth-of-type(2) {
+p a:nth-of-type(3) {
   background: #e1f5fe;
 }
 
@@ -73,12 +73,19 @@ button:only-child {
 }
 
 /* 9. Los span que sean primeros hijos de un div (o cualquier contenedor) */
+/* Opción A: Solo dentro de divs */
 div > span:first-child {
-  font-style: italic;
+  color: blue;
+  font-weight: bold;
+}
+
+/* Opción B: En cualquier contenedor */
+span:first-child {
+  text-transform: uppercase;
 }
 
 /* 10. Penúltimo hijo de body */
-body > *:nth-last-child(2) {
+body > *:nth-last-child(3) {
   border: 2px solid purple;
   padding: 10px;
 }

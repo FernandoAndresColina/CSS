@@ -2,19 +2,19 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Ejercicio de Selectores Avanzados</title>
-    <link rel="stylesheet" href="style2.css" />
+    <title>Ejercicio de Selectores Avanzados - clase 07</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Selectores Avanzados CSS</h1>
     </header>
 
-    <div class="container">
       <section>
         <h3>1. Primer enlace hijo de P</h3>
         <p>
           <a href="#">Este enlace es el primero (Azul)</a>
+          <br />
           <a href="#">Este es el segundo</a>
         </p>
       </section>
@@ -23,6 +23,7 @@
         <h3>2. Checkbox marcados en Form</h3>
         <form>
           <input type="checkbox" checked /> Marcado (Brilla)
+          <br />
           <input type="checkbox" /> Sin marcar
         </form>
       </section>
@@ -31,9 +32,8 @@
         <h3>3. Último P de un Article</h3>
         <article>
           <p>Primer párrafo.</p>
-          <div>
-            <p>Último párrafo descendiente (Subrayado).</p>
-          </div>
+
+          <p>Último párrafo descendiente (Subrayado).</p>
         </article>
       </section>
 
@@ -65,7 +65,17 @@
       </section>
 
       <section>
-        <h3>7. Botón hijo único</h3>
+        <h3>7. El segundo <a> de dentro de un p</h3>
+        <p>
+          <a href="#">Primer enlace (Ignorado)</a><br>
+          <span>Algún texto intermedio</span><br>
+          <a href="#">Segundo enlace (¡Seleccionado!)</a><br>
+          <a href="#">Tercer enlace (Ignorado)</a>
+        </p>
+      </section>
+
+      <section>
+        <h3>8. Botón hijo único</h3>
         <div class="caja-boton">
           <button>Soy hijo único (Grande)</button>
         </div>
@@ -74,9 +84,16 @@
           <button>único</button>
         </div>
       </section>
-    </div>
 
-    <p class="nota">Soy un elemento al final del body.</p>
-    <p>Yo soy el último hijo del body.</p>
+      <section>
+        <h3>9. Los span que sean primeros hijos de un div (o cualquier contenedor)</h3>
+        <div>
+          <span>Soy el primer hijo (Seleccionado)</span><br>
+          <span>Soy el segundo hijo</span>
+        </div>
+
+        <p>Soy un párrafo (primer hijo)</p>
+        <span>Soy el segundo hijo, aunque sea el primer span (NO seleccionado)</span>
+      </section>
   </body>
 </html>
