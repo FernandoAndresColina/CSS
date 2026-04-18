@@ -21,53 +21,91 @@ body {
   color: #666;
 }
 
-/* --- TUS SELECTORES --- */
-
-/* 1. Selecciona los div hijos de otro div */
+/* Estilos para el selector de ID */
+/* 1.*/
 div > div {
-  background-color: #e3f2fd;
-  border: 2px solid #2196f3;
+  background-color: #f4f4f9;
   padding: 10px;
+  border: 1px solid #00aaff;
 }
 
-/* 2. Selecciona todos los hijos directos de un elemento específico */
+/* 2. */
 .contenedor-hijos > * {
   border: 2px dashed #ff9800;
 }
-
-/* 3. Selecciona los p que sean hijos de article */
+/* 3. */
 article > p {
   font-weight: bold;
 }
 
-/* 4. Selecciona los p que estén dentro de un article (cualquier nivel) */
+/* 4. */
 article p {
   text-decoration: underline;
-  color: #2e7d32;
+  color: darkgreen;
 }
 
-/* 5. Selecciona los títulos h1 y los h2 (Agrupación) */
+/* 5 */
 h1,
-h2 {
+h3 {
   color: #4a148c;
   border-bottom: 1px solid #eee;
 }
 
-/* 6. Selecciona los ol que estén dentro de body */
+/* 6. */
 body ol {
-  background-color: #fff3e0;
+  background-color: antiquewhite;
 }
 
-/* 7. Clase “amarillo” */
+/* 7. */
 .amarillo {
   background-color: yellow;
 }
 
-/* 8. Clase headertitle hija de header */
-header > .headertitle {
-  display: block;
-  text-align: center;
-  font-size: 24px;
+/* 8. */
+body ul {
+  background-color: lightblue;
+}
+
+/* 9. */
+p > a {
+  color: red;
   font-weight: bold;
-  color: #c62828;
+}
+
+/* 10. */
+#platano {
+  border: 2px solid green;
+  padding: 10px;
+  background-color: #e0ffe0;
+}
+
+/* 11. */
+h2 ~ div {
+  color: purple;
+  font-weight: bold;
+}
+
+/* 12. */
+ul p.paisa {
+  color: #d35400;
+  font-weight: bold;
+  border-left: 3px solid #e67e22;
+  padding-left: 10px;
+}
+
+/* 13. */
+header > span {
+  font-size: 24px;
+  color: #2980b9;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+header > h1.headertitle,
+header > h2.headertitle,
+header > h3.headertitle {
+  color: #2c3e50;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
 }

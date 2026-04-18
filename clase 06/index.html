@@ -8,12 +8,28 @@
   </head>
   <body>
     <header>
-      <span class="headertitle">Mi Documento de Selectores</span>
+      <span>Mi Documento de Selectores</span>
+      <span class="label centro"
+        >13. Selecciona los h1, h2, h3 que tengan la clase "headertitle", hijos
+        del header:</span
+      >
+      <h1 class="headertitle">Titulo a dentro del header</h1>
+      <h2 class="headertitle">Titulo a dentro del header</h2>
+      <h3 class="headertitle">Titulo a dentro del header</h3>
     </header>
 
     <div class="container">
+      <span class="label">5. Selecciona los titulos h1 y los h3:</span>
       <h1>Título H1</h1>
-      <h2>Título H2 (Seleccionados en grupo)</h2>
+      <span class="label"
+        >11. Todos los elementos div que sean hermanos de un elemento h2:</span
+      >
+      <h2>Título H2</h2>
+      <div>Soy hermano y voy después (Seleccionado)</div>
+      <p>Soy un párrafo intermedio</p>
+      <div>También soy hermano y voy después (Seleccionado)</div>
+
+      <h3>Titulo H3</h3>
 
       <section>
         <span class="label">1. Divs hijos de otro Div (div > div):</span>
@@ -56,6 +72,55 @@
         <span class="label">7. Clase Amarillo (.amarillo):</span>
         <p class="amarillo">Este párrafo es amarillo.</p>
         <span class="amarillo">Este span también.</span>
+      </section>
+
+      <section>
+        <span class="label"
+          >8. Los elementos "ul" que sean hijos de "body":</span
+        >
+        <ul>
+          <li>Este es un elemento</li>
+          <li>Este es otro elemento</li>
+        </ul>
+      </section>
+
+      <section>
+        <span class="label">9 Los elementos de a que sean hijos de p. :</span>
+        <p>
+          <a href="#">Soy un hijo directo (Me veré afectado)</a>
+          <span>
+            <a href="#">No soy hijo directo, soy nieto (No me veré afectado)</a>
+          </span>
+        </p>
+      </section>
+
+      <section>
+        <span class="label">10 Selecciona el elemento con id "platano". :</span>
+        <p id="platano">¡Soy un plátano con borde verde!</p>
+      </section>
+
+      <section>
+        <span class="label"
+          >12 Todos los elementos p con clase = paisa, descendientes de un
+          elemento ul. :</span
+        >
+        <ul>
+          <li>
+            <p class="paisa">
+              Soy un párrafo paisa dentro de un li (Seleccionado)
+            </p>
+          </li>
+          <p class="paisa">
+            Soy un párrafo paisa directo del ul (Seleccionado)
+          </p>
+          <li>
+            <p>Soy un párrafo normal (No seleccionado)</p>
+          </li>
+        </ul>
+
+        <p class="paisa">
+          Soy un párrafo paisa, pero estoy fuera del ul (No seleccionado)
+        </p>
       </section>
     </div>
   </body>
