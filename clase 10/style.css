@@ -1,7 +1,7 @@
 /* 1. Configuracion de fuente base */
 body {
   color: black;
-  font-family: arial;
+  font-family: arial, Arial, Helvetica, sans-serif;
   font-size: 0.9em;
   line-height: 1.4em;
 }
@@ -17,14 +17,14 @@ body {
 }
 
 /* 2. Articulos */
-.article h2 {
+.articulo h2 {
   color: #cc6600;
   font-size: 1.6em;
   line-height: 1.2em;
 }
 
 /* 7. Enlaces dentro del article */
-.article a {
+.articulo a {
   color: #cc6600;
 }
 
