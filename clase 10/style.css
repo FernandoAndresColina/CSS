@@ -1,0 +1,53 @@
+/* 1. Configuracion de fuente base */
+body {
+  color: black;
+  font-family: arial;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+/* 3. Menu de navegacion */
+#menu {
+  background-color: #2b4c99;
+}
+
+#menu a {
+  color: white;
+  font-size: 1.3em;
+}
+
+/* 2. Articulos */
+.article h2 {
+  color: #cc6600;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+/* 7. Enlaces dentro del article */
+.article a {
+  color: #cc6600;
+}
+
+/* 4. Barra lateral general */
+#lateral {
+  font-size: 0.9em;
+}
+
+/* 4. Fecha de noticia */
+.fecha {
+  color: #999;
+}
+
+/* 5. Titulo h3 en noticias */
+#noticias h3 {
+  color: #003366;
+}
+
+/* 6. Seccion de publicidad */
+#publicidad {
+  color: #555;
+}
+
+#publicidad a {
+  color: #cc6600;
+}

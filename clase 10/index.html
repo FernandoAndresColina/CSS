@@ -20,5 +20,182 @@
     <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#fafafa" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo-container">
+        <h1 id="logo">Logotipo</h1>
+        <div class="buscador">
+          <label for="buscar">Buscar</label>
+          <input type="text" id="buscar" />
+        </div>
+      </div>
+
+      <nav id="menu">
+        <a href="#">Lorem</a>
+        <a href="#">Ipsum</a>
+        <a href="#">Dolor</a>
+        <a href="#">Sit</a>
+        <a href="#">Amet</a>
+      </nav>
+    </header>
+
+    <div class="contenedor-principal" style="display: flex; margin-top: 20px">
+      <aside id="lateral" style="width: 25%; padding-right: 20px">
+        <section id="noticias">
+          <h3>Noticias</h3>
+          <ul>
+            <li>
+              <span class="fecha">dd/mm/aaaa</span><br />
+              <a href="#">Lorem ipsum dolor sit amet</a>
+            </li>
+            <li>
+              <span class="fecha">dd/mm/aaaa</span><br />
+              <a href="#">Consectetuer adipiscing elit</a>
+            </li>
+            <li>
+              <span class="fecha">dd/mm/aaaa</span><br />
+              <a href="#">Donec molestie nunc eu sapien</a>
+            </li>
+          </ul>
+
+          <h3>Enlaces relacionados</h3>
+          <ul>
+            <li><a href="#">Proin placerat</a></li>
+            <li><a href="#">Nulla in felis</a></li>
+            <li><a href="#">Nam luctus</a></li>
+          </ul>
+        </section>
+
+        <section
+          id="publicidad"
+          style="
+            border: 1px dashed #ccc;
+            padding: 10px;
+            background-color: #fff9e6;
+          "
+        >
+          <strong>Publicidad</strong>
+          <p>
+            Etiam fermentum, nisl tincidunt blandit interdum, massa velit
+            posuere dolor, sed euismod sem odio at mi.
+          </p>
+          <a href="#">Seguir leyendo...</a>
+        </section>
+      </aside>
+
+      <main style="width: 75%">
+        <article class="articulo">
+          <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+          <div style="display: flex">
+            <div
+              style="
+                width: 150px;
+                height: 100px;
+                border: 1px solid #000;
+                margin-right: 15px;
+                position: relative;
+              "
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background:
+                    linear-gradient(
+                      to top left,
+                      transparent 49%,
+                      black,
+                      transparent 51%
+                    ),
+                    linear-gradient(
+                      to top right,
+                      transparent 49%,
+                      black,
+                      transparent 51%
+                    );
+                "
+              ></div>
+            </div>
+            <div>
+              <p>
+                Nullam est lacus, suscipit ut, dapibus quis, condimentum ac,
+                risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra,
+                dolor metus fringilla dui, vel aliquet pede diam tempor tortor.
+              </p>
+            </div>
+          </div>
+          <p>
+            Vestibulum pulvinar urna et quam. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas.
+          </p>
+          <a href="#">Seguir leyendo...</a>
+        </article>
+
+        <hr />
+
+        <article class="articulo">
+          <h2>Vivamus lobortis turpis ac ante fringilla faucibus</h2>
+          <div style="display: flex">
+            <div
+              style="
+                width: 150px;
+                height: 100px;
+                border: 1px solid #000;
+                margin-right: 15px;
+                position: relative;
+              "
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background:
+                    linear-gradient(
+                      to top left,
+                      transparent 49%,
+                      black,
+                      transparent 51%
+                    ),
+                    linear-gradient(
+                      to top right,
+                      transparent 49%,
+                      black,
+                      transparent 51%
+                    );
+                "
+              ></div>
+            </div>
+            <div>
+              <p>
+                Quisque eget ipsum. Donec commodo, turpis vel venenatis
+                sollicitudin, quam ante convallis justo, sed eleifend justo
+                lectus quis sapien.
+              </p>
+            </div>
+          </div>
+          <a href="#">Seguir leyendo...</a>
+        </article>
+      </main>
+    </div>
+
+    <footer
+      style="
+        margin-top: 40px;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        font-size: 0.8em;
+      "
+    >
+      <p>
+        Nulla | Pharetra | Luctus | Ipsum | Proin | Placerat
+        <span style="float: right">© Copyright Lorem Ipsum</span>
+      </p>
+    </footer>
+  </body>
 </html>
