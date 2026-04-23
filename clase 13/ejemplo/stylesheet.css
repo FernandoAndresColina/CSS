@@ -10,3 +10,11 @@ nav.google a {
 nav.google a:hover {
   color: purple;
 }
+
+nav.fontawesome i {
+  color: green;
+}
+
+nav.fontawesome i:hover {
+  color: orange;
+}
