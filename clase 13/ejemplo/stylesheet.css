@@ -77,3 +77,48 @@ ul.menu a:visited {
 ul.menu a:hover {
   opacity: 1;
 }
+
+@font-face {
+  font-family: "icomoon-custome";
+  src: url("fonts/icomoon-custome.eot?kedg9p");
+  src:
+    url("../icomoon-custome.eot?kedg9p#iefix") format("embedded-opentype"),
+    url("../icomoon-custome.ttf?kedg9p") format("truetype"),
+    url("../icomoon-custome.woff?kedg9p") format("woff"),
+    url("../icomoon-custome.svg?kedg9p#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="iconcustome-"],
+[class*=" iconcustome-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon-custome" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcustome-beach:before {
+  content: "\e900";
+}
+.iconcustome-facebook:before {
+  content: "\e901";
+}
+.iconcustome-travel:before {
+  content: "\e902";
+}
+.iconcustome-musica:before {
+  content: "\e903";
+}
+.iconcustome-Union:before {
+  content: "\e904";
+}
