@@ -63,3 +63,17 @@ nav.fontawesome i:hover {
 .icon-youtube:before {
   content: "\ea9d";
 }
+
+ul.menu a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+ul.menu a:visited {
+  color: black;
+}
+
+ul.menu a:hover {
+  opacity: 1;
+}
