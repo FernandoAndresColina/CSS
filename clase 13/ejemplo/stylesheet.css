@@ -33,7 +33,7 @@ nav.fontawesome i:hover {
 }
 
 [class^="icon-"],
-[class*=" icon-"] {
+[class*="icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
   speak: never;
@@ -79,13 +79,13 @@ ul.menu a:hover {
 }
 
 @font-face {
-  font-family: "icomoon-custome";
-  src: url("fonts/icomoon-custome.eot?kedg9p");
+  font-family: "icomooncustome";
+  src: url("fonts/icomooncustome.eot");
   src:
-    url("../icomoon-custome.eot?kedg9p#iefix") format("embedded-opentype"),
-    url("../icomoon-custome.ttf?kedg9p") format("truetype"),
-    url("../icomoon-custome.woff?kedg9p") format("woff"),
-    url("../icomoon-custome.svg?kedg9p#icomoon") format("svg");
+    url("fonts/icomooncustome.eot") format("embedded-opentype"),
+    url("fonts/icomooncustome.ttf") format("truetype"),
+    url("fonts/icomooncustome.woff") format("woff"),
+    url("fonts/icomooncustome.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -94,7 +94,7 @@ ul.menu a:hover {
 [class^="iconcustome-"],
 [class*=" iconcustome-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon-custome" !important;
+  font-family: "icomooncustome" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -107,10 +107,13 @@ ul.menu a:hover {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.iconcustome-sunset:before {
+  content: "\e904";
+}
 .iconcustome-beach:before {
   content: "\e900";
 }
-.iconcustome-facebook:before {
+.iconcustome-music:before {
   content: "\e901";
 }
 .iconcustome-travel:before {
@@ -118,7 +121,4 @@ ul.menu a:hover {
 }
 .iconcustome-musica:before {
   content: "\e903";
-}
-.iconcustome-Union:before {
-  content: "\e904";
 }
