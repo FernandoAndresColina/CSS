@@ -1,0 +1,32 @@
+.banderas {
+  background-color: #edecec;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.banderas div {
+  width: 250px;
+  height: 180px;
+  border: 1px solid #000;
+  display: inline-block;
+  margin: 15px;
+}
+
+div.colombia {
+  background-image: linear-gradient(
+    yellow 33.3%,
+    blue 33.3%,
+    blue 66.6%,
+    red 66.6%
+  );
+}
+
+div.francia {
+  background-image: linear-gradient(
+    to right,
+    red 33.33%,
+    white 33.3%,
+    white 66.3%,
+    blue 66.6%
+  );
+}
