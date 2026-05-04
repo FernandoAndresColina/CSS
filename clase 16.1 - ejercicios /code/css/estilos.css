@@ -24,9 +24,37 @@ div.colombia {
 div.francia {
   background-image: linear-gradient(
     to right,
-    red 33.33%,
+    red 33.3%,
     white 33.3%,
     white 66.3%,
     blue 66.6%
   );
+}
+
+div.italia {
+  background-image: linear-gradient(
+    to right,
+    green 33.3%,
+    white 33.3%,
+    white 66.3%,
+    red 66.6%
+  );
+}
+
+div.alemania {
+  color: white;
+  background-image: linear-gradient(
+    black 33.3%,
+    red 33.3%,
+    red 66.6%,
+    yellow 66.6%
+  );
+}
+
+div.polonia {
+  background-image: linear-gradient(white 50%, red 50%);
+}
+
+div.japon {
+  background-image: radial-gradient(circle at center, red 35%, white 35%);
 }
