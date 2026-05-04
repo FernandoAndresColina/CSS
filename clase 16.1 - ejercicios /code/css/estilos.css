@@ -5,11 +5,11 @@
 }
 
 .banderas div {
-  width: 250px;
-  height: 180px;
+  width: 30%;
+  aspect-ratio: 1.4;
   border: 1px solid #000;
   display: inline-block;
-  margin: 15px;
+  margin: 10px;
 }
 
 div.colombia {
