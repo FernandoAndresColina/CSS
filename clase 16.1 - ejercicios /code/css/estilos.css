@@ -58,3 +58,23 @@ div.polonia {
 div.japon {
   background-image: radial-gradient(circle at center, red 35%, white 35%);
 }
+
+.myHeader {
+  border: 5px solid #000;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-color: #51a7f8;
+  background-image: url(../img/balloons.jpg);
+  background-position: top, right;
+  background-size: 100%;
+  width: 350px;
+}
+
+.myHeader h2 {
+  background-color: rgb(0, 0, 0, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
