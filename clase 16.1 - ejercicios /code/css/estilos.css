@@ -102,3 +102,13 @@ div.japon {
   text-align: center;
   margin: 0;
 }
+
+.paginate {
+  background-color: #bebebe;
+  border: 1px solid #cbcbcb;
+  padding: 10px;
+}
+
+.paginate span:nth-last-of-type(1) {
+  float: right;
+}
