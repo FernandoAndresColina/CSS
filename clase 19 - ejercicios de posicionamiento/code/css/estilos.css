@@ -159,3 +159,36 @@
   width: 20%;
   height: 260px;
 }
+
+.container.ejercicio5 .rojo {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.container.ejercicio5 .azul {
+  width: 15%;
+  height: 260px;
+  position: absolute;
+  top: 25px;
+  left: 20%;
+}
+
+.container.ejercicio5 .amarillo {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.container.ejercicio5 .verde {
+  width: 15%;
+  height: 260px;
+  position: absolute;
+  top: 25px;
+  right: 20%;
+  z-index: 2;
+}
