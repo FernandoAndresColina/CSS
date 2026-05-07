@@ -131,3 +131,31 @@
   left: 15%;
   z-index: 2;
 }
+
+.ejercicio4 {
+  font-size: 0;
+}
+
+.container.ejercicio4 .rojo {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+}
+
+.container.ejercicio4 .azul {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+}
+
+.container.ejercicio4 .amarillo {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+}
+
+.container.ejercicio4 .verde {
+  display: inline-block;
+  width: 20%;
+  height: 260px;
+}
