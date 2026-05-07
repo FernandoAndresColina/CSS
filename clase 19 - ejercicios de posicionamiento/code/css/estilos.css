@@ -95,3 +95,39 @@
   bottom: 0px;
   left: 0px;
 }
+
+.container.ejercicio3 .rojo {
+  width: 40%;
+  height: 80px;
+  position: absolute;
+  top: 60%;
+  right: 25%;
+  z-index: 3;
+}
+
+.container.ejercicio3 .azul {
+  width: 40%;
+  height: 140px;
+  position: absolute;
+  left: 20%;
+  top: 20px;
+  z-index: 1;
+}
+
+.container.ejercicio3 .amarillo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  z-index: 2;
+}
+
+.container.ejercicio3 .verde {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  z-index: 2;
+}
