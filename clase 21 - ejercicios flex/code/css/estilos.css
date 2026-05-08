@@ -52,3 +52,20 @@ header.ejercicio4 nav {
 header.ejercicio4 nav ul {
   flex-direction: column;
 }
+
+header.ejercicio5 h1 {
+  font-size: 20px;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+}
+
+header.ejercicio5 .imgContainer {
+  display: flex;
+  justify-content: start;
+  background-color: #ccc;
+}
+
+header.ejercicio5 .imgContainer img {
+  max-width: 100px;
+  border: 2px dashed black;
+}
