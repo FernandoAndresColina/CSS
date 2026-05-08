@@ -40,3 +40,7 @@ header li a:hover {
 header.ejercicio2 nav ul {
   justify-content: center;
 }
+
+header.ejercicio3 nav ul {
+  justify-content: space-between;
+}
