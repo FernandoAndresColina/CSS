@@ -44,3 +44,11 @@ header.ejercicio2 nav ul {
 header.ejercicio3 nav ul {
   justify-content: space-between;
 }
+
+header.ejercicio4 nav {
+  max-width: 200px;
+}
+
+header.ejercicio4 nav ul {
+  flex-direction: column;
+}
