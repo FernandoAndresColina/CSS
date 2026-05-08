@@ -1,0 +1,38 @@
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+  background-color: black;
+  color: white;
+  padding: 30px 20px;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header nav {
+  background-color: #ccc;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+}
+
+header li a:hover {
+  background-color: black;
+  color: white;
+}
