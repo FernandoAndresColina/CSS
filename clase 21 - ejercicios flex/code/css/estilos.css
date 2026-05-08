@@ -36,3 +36,7 @@ header li a:hover {
   background-color: black;
   color: white;
 }
+
+header.ejercicio2 nav ul {
+  justify-content: center;
+}
