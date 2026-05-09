@@ -80,6 +80,8 @@ header.ejercicio6 .imgContainer {
   display: flex;
   justify-content: start;
   background-color: #ccc;
+  padding: 10px 5px;
+  gap: 10px;
 }
 
 header.ejercicio6 .imgContainer img {
