@@ -88,3 +88,48 @@ header.ejercicio6 .imgContainer img {
   max-width: 100px;
   border: 2px dashed black;
 }
+
+header.ejercicio7 h1 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.travelContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.travel__img {
+  max-width: 100%;
+  aspect-ratio: 18/9;
+}
+
+.travel {
+  width: 33.33%;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.travel__title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.travel__description {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.travel:first-of-type {
+  background-color: #03f3c7;
+}
+
+.travel:nth-of-type(2) {
+  background-color: #03b369;
+}
+
+.travel:last-of-type {
+  background-color: #8fb2b0;
+}
