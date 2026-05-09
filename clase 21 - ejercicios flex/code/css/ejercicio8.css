@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: verdana, sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header.header {
@@ -44,4 +47,99 @@ nav.menu ul a {
 
 section.hero img {
   width: 100%;
+  margin-bottom: 30px;
+}
+
+article.booking-option {
+  padding: 20px;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+article.booking-option h2 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+article.booking-option p {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+article.booking-option i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+article.booking-option.rural {
+  border-color: #b79b34;
+  background-color: #f5e9c7;
+}
+article.booking-option.rural i {
+  color: #b79b34;
+}
+
+article.booking-option.camping {
+  border-color: #79a24a;
+  background-color: #d3ffac;
+}
+article.booking-option.camping i {
+  color: #79a24a;
+}
+
+article.booking-option.hotel {
+  border-color: #4a79a2;
+  background-color: #c7e9f5;
+}
+article.booking-option.hotel i {
+  color: #4a79a2;
+}
+
+aside.review {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: #cccc;
+  padding: 30px;
+}
+
+aside.review h2 {
+  margin-top: 0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+aside.review article {
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+aside.review header {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+aside.review i.fa-user {
+  font-size: 30px;
+}
+
+aside.review .fa-star {
+  color: #b79b34;
+}
+
+aside.review .fa-star:hover {
+  color: black;
+  cursor: pointer;
+}
+
+aside.review p {
+  font-size: 12px;
+  color: #636363;
 }
