@@ -75,3 +75,16 @@
   overflow: hidden;
   overflow-y: scroll;
 }
+
+/* Ejercicio 3 */
+.mainContainer.ejercicio3 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 140px;
+}
+
+.mainContainer.ejercicio3 div {
+  width: 33.33%;
+  text-align: center;
+  font-size: 14px;
+}
