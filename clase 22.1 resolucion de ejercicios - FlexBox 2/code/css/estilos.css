@@ -1,0 +1,59 @@
+.mainContainer {
+  width: 300px;
+  min-height: 180px;
+  border: 1px solid red;
+}
+
+.mainContainer.ejercicio1 {
+  display: flex;
+}
+
+.ejercicio1 div:nth-child(1) {
+  background-color: #58b99d;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(2) {
+  background-color: #5296d5;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(3) {
+  background-color: #a655bb;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(4) {
+  background-color: #2e4a60;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(5) {
+  background-color: #fac200;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(6) {
+  background-color: #f67700;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(7) {
+  background-color: #fb382f;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(8) {
+  background-color: #bcc3c9;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(9) {
+  background-color: #00d066;
+  color: white;
+}
+
+.ejercicio1 div:nth-child(10) {
+  background-color: #00a384;
+  color: white;
+}
