@@ -8,6 +8,11 @@
   display: flex;
 }
 
+.mainContainer.ejercicio1 div {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
 .ejercicio1 div:nth-child(1) {
   background-color: #58b99d;
   color: white;
