@@ -9,8 +9,9 @@
 }
 
 .mainContainer.ejercicio1 div {
-  padding-right: 3px;
-  padding-left: 3px;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: 14px;
 }
 
 .ejercicio1 div:nth-child(1) {
