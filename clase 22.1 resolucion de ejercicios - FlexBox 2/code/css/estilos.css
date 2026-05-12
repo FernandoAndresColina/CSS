@@ -108,3 +108,16 @@
 .mainContainer.ejercicio4 div:nth-child(6) {
   order: 2;
 }
+
+/* Ejercicio 5 */
+.mainContainer.ejercicio5 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0px;
+}
+
+.mainContainer.ejercicio5 div {
+  height: 5px;
+  gap: 2px;
+}
