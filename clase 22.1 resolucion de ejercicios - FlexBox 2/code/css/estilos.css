@@ -152,3 +152,16 @@
 .mainContainer.ejercicio6 div:nth-child(10) {
   font-size: 14px;
 }
+
+/* Ejercicio 7 */
+.mainContainer.ejercicio7 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainContainer.ejercicio7 div {
+  width: 33.33%;
+  text-align: center;
+}
