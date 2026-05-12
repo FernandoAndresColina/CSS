@@ -165,3 +165,27 @@
   width: 33.33%;
   text-align: center;
 }
+
+/* Ejercicio 8 */
+.mainContainer.ejercicio8 {
+  display: flex;
+  align-items: start;
+}
+
+.mainContainer.ejercicio8 div {
+  flex: 1;
+  text-align: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(2) {
+  align-self: stretch;
+}
+
+.mainContainer.ejercicio8 div:nth-child(6) {
+  align-self: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(9) {
+  align-self: end;
+  padding-bottom: 15px;
+}
