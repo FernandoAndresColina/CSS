@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.ejercicio01 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio01 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
