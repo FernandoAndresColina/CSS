@@ -190,3 +190,24 @@ div.ejercicio07 > div.celda2 {
 div.ejercicio07 > div.celda4 {
   grid-column: 1 / span 3;
 }
+
+/* Ejercicio 8 */
+div.ejercicio08 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio08 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio08 > div:first-child {
+  order: 1;
+}
