@@ -229,3 +229,41 @@ div.ejercicio09 > div {
   text-align: center;
   font-size: 14px;
 }
+
+/* Ejercicio 10 */
+div.ejercicio10 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio10 > div {
+  background-color: #5f717d;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio10 > div.celda4 {
+  grid-area: 2 / 2 / span 2 / span 1;
+}
+
+div.gridInterno {
+  display: grid;
+  background-color: white;
+  gap: 1px;
+}
+
+div.gridInterno > div {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: #d5d5f2;
+}
+
+div.gridInterno > div:first-child {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
