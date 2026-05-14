@@ -20,3 +20,23 @@ div.ejercicio01 > div {
   text-align: center;
   font-size: 14px;
 }
+
+div.ejercicio02 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio02 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio02 > div.principal {
+  grid-column: 1 / span 3;
+}
