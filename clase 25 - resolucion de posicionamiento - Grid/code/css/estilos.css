@@ -88,3 +88,27 @@ div.ejercicio04 > div.header {
 div.ejercicio04 > div.sidebar {
   grid-area: 2 / 1 / span 2 / span 1;
 }
+
+div.ejercicio05 {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio05 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio05 > div.header {
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+div.ejercicio05 > div.sidebar {
+  grid-area: 1 / 4 / span 2 / span 1;
+}
