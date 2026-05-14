@@ -5,6 +5,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Ejercicio 1 */
 div.ejercicio01 {
   width: 450px;
   display: grid;
@@ -21,6 +22,7 @@ div.ejercicio01 > div {
   font-size: 14px;
 }
 
+/* Ejercicio 2 */
 div.ejercicio02 {
   width: 450px;
   display: grid;
@@ -41,6 +43,7 @@ div.ejercicio02 > div.principal {
   grid-column: 1 / span 3;
 }
 
+/* Ejercicio 3 */
 div.ejercicio03 {
   width: 450px;
   display: grid;
@@ -65,6 +68,7 @@ div.ejercicio03 > div.sidebar {
   grid-row: 2 / span 2;
 }
 
+/* Ejercicio 4 */
 div.ejercicio04 {
   width: 400px;
   display: grid;
@@ -89,6 +93,7 @@ div.ejercicio04 > div.sidebar {
   grid-area: 2 / 1 / span 2 / span 1;
 }
 
+/* Ejercicio 5 */
 div.ejercicio05 {
   width: 400px;
   display: grid;
@@ -113,6 +118,7 @@ div.ejercicio05 > div.sidebar {
   grid-area: 1 / 4 / span 2 / span 1;
 }
 
+/* Ejercicio 6 */
 div.ejercicio06 {
   width: 450px;
   display: grid;
@@ -147,4 +153,40 @@ div.ejercicio06 > div.celda4 {
 
 div.ejercicio06 > div.celda5 {
   grid-column: 1 / span 6;
+}
+
+/* Ejercicio 7 */
+div.ejercicio07 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 100px 40px;
+  gap: 1px;
+}
+
+div.ejercicio07 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio07 .celda1 {
+  background-color: #9c5e11;
+}
+
+div.ejercicio07 .celda4 {
+  background-color: #4f5151;
+}
+
+div.ejercicio07 > div.celda1 {
+  grid-column: 3 / span 2;
+}
+
+div.ejercicio07 > div.celda2 {
+  grid-area: 2 / 1 / span 1 / span 2;
+}
+
+div.ejercicio07 > div.celda4 {
+  grid-column: 1 / span 3;
 }
