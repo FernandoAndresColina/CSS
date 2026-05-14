@@ -112,3 +112,39 @@ div.ejercicio05 > div.header {
 div.ejercicio05 > div.sidebar {
   grid-area: 1 / 4 / span 2 / span 1;
 }
+
+div.ejercicio06 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio06 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio06 > div.celda1 {
+  grid-column: 1 / span 3;
+}
+
+div.ejercicio06 > div.celda2 {
+  grid-column: 4 / span 3;
+}
+
+div.ejercicio06 > div.celda3 {
+  grid-column: 1 / span 2;
+}
+
+div.ejercicio06 > div.celda4 {
+  grid-column: 3 / span 4;
+}
+
+div.ejercicio06 > div.celda5 {
+  grid-column: 1 / span 6;
+}
