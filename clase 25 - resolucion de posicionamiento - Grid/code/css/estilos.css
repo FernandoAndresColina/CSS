@@ -40,3 +40,27 @@ div.ejercicio02 > div {
 div.ejercicio02 > div.principal {
   grid-column: 1 / span 3;
 }
+
+div.ejercicio03 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+}
+
+div.ejercicio03 > div {
+  background-color: #5f717d;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.ejercicio03 > div.header {
+  grid-column: 1 / span 3;
+}
+
+div.ejercicio03 > div.sidebar {
+  grid-row: 2 / span 2;
+}
