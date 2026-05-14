@@ -211,3 +211,21 @@ div.ejercicio08 > div {
 div.ejercicio08 > div:first-child {
   order: 1;
 }
+
+/* Ejercicio 9 */
+div.ejercicio09 {
+  width: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px;
+  grid-auto-flow: column;
+}
+
+div.ejercicio09 > div {
+  background-color: #5f717d;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
