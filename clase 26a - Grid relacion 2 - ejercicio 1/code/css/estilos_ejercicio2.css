@@ -140,4 +140,83 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  margin-bottom: 25px;
+}
+
+.destacados article {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.destacados article p:first-child {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.destacados p.description {
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.destacado {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  margin-bottom: 25px;
+}
+
+.destacado img {
+  width: 400px;
+  height: auto;
+}
+
+.destacado__info {
+  font-weight: bold;
+  max-width: 400px;
+}
+
+.destacado__info a {
+  background-color: #ffc600;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: normal;
+}
+
+.instagram h2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.instagram h2:after {
+  content: "";
+  height: 20px;
+  display: block;
+  background-image: linear-gradient(to left, transparent, #ffc600);
+}
+
+.instagram h2:before {
+  content: "";
+  height: 20px;
+  display: block;
+  background-image: linear-gradient(to right, transparent, #ffc600);
+}
+
+.instagram div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.instagram img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
