@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  background-image:
+    url("../img/topography.svg"), linear-gradient(to right, #e04e6e, #804abc);
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-template-areas:
+    "hero hero cta1"
+    "hero hero cta2";
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.hero {
+  grid-area: hero;
+  position: relative;
+  background-image: url("../img/taco.jpg");
+  background-size: cover;
+  display: flex;
+  padding: 50px;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  background-color: #ffc600;
+  width: max-content;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.hero p {
+  background-color: #ffc600;
+  width: max-content;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cta1 {
+  grid-area: cta1;
+}
+
+.cta2 {
+  grid-area: cta2;
+}
+
+.cta1,
+.cta2 {
+  background-color: #ffc600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-content: center;
+}
+
+.cta1:hover,
+.cta2:hover {
+  background-color: black;
+  color: #ffc600;
+}
+
+.cta__price {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.cta__name {
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav li {
+  flex: 1;
+}
+
+nav ul li a {
+  display: block;
+  background-color: #ffc600;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  color: #ffc600;
+}
+
+nav {
+  margin-bottom: 25px;
+}
+
+.destacados {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
