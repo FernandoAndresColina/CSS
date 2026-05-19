@@ -1,3 +1,4 @@
+/* Ejemplo 1 */
 ul.example1 {
   margin: 0;
   padding: 0;
@@ -19,4 +20,43 @@ ul.example1 li + li {
 ul.example1 a {
   color: #4e4e4e;
   text-decoration: none;
+}
+
+/* Ejemplo 2 */
+
+ul.example2 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style: none;
+  width: 280px;
+  color: #ccc;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+ul.example2 li.active a {
+  background-color: #3579f6;
+  color: white;
+}
+
+ul.example2 li:hover {
+}
+
+ul.example2 li + li {
+  border-top: 1px solid #e5e4e4;
+}
+
+ul.example2 a {
+  color: #4e4e4e;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul.example2 a:hover {
+  background-color: #3579f6;
+  color: white;
 }
