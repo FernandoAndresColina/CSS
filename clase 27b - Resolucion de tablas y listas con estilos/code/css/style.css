@@ -5,7 +5,7 @@ ul.example1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   list-style: none;
-  width: 300px;
+  width: 280px;
   color: #ccc;
 }
 
@@ -59,4 +59,55 @@ ul.example2 a {
 ul.example2 a:hover {
   background-color: #3579f6;
   color: white;
+}
+
+/* Ejemplo 3 */
+ul.example3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style: none;
+  width: 280px;
+  color: #ccc;
+  border: 1px solid #e5e4e4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+ul.example3 li {
+  position: relative;
+}
+
+ul.example3 li + li {
+  border-top: 1px solid #e5e4e4;
+}
+
+ul.example3 a {
+  color: #4e4e4e;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+ul.example3 a span {
+  position: absolute;
+  right: 10px;
+  font-size: 8px;
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #3579f6;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+ul.example3 li:hover a {
+  background-color: #3579f6;
+  color: white;
+}
+
+ul.example3 li:hover a span {
+  background-color: white;
+  color: #3579f6;
 }
