@@ -45,3 +45,56 @@ nav.drop > ul > li:hover ul.dropdown {
 ul.dropdown a:hover {
   background-color: #56a4e0;
 }
+
+h3.text-1 {
+  background-color: #6cfafc;
+  font-size: 70px;
+  color: white;
+  padding: 40px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+}
+
+h3.text-2 {
+  background-color: #fff3cd;
+  font-size: 70px;
+  color: white;
+  padding: 40px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  text-shadow: 3px 3px 0px rgb(0, 0, 0, 0.2);
+}
+
+h3.text-3 {
+  background-color: #6cfafc;
+  font-size: 70px;
+  color: white;
+  padding: 40px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  text-shadow:
+    -4px 4px 0px rgb(0, 243, 243),
+    -7px 7px 0px rgb(0, 214, 207),
+    -10px 10px 0px rgb(0, 224, 232);
+}
+
+h3.text-4 {
+  background-color: #fff3cd;
+  font-size: 70px;
+  color: white;
+  padding: 40px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  text-shadow: 0px 12px 2px rgb(0, 0, 0, 0.2);
+}
+
+h3.text-5 {
+  background-color: #222222;
+  font-size: 70px;
+  color: #161616;
+  padding: 40px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  text-shadow: 1px 2px 1px rgb(255, 255, 255, 0.1);
+}
