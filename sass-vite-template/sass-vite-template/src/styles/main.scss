@@ -1,0 +1,10 @@
+@use "_variables-primarias" as vp;
+@use "_variables-tema" as vt;
+
+h1 {
+  color: vp.$primary-color;
+}
+
+p {
+  color: vt.$secondary-color;
+}

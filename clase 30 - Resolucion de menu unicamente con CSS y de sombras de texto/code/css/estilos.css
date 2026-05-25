@@ -98,3 +98,58 @@ h3.text-5 {
   width: min-content;
   text-shadow: 1px 2px 1px rgb(255, 255, 255, 0.1);
 }
+
+.box-1 {
+  background-color: #ced7ef;
+  padding: 30px 5px;
+  text-align: center;
+  color: #a5a5a5;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 13px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.616);
+}
+
+.box-2 {
+  background-color: #ced7ef;
+  padding: 30px 5px;
+  text-align: center;
+  color: #a5a5a5;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.616) inset;
+}
+
+.box-3 {
+  background-color: #ced7ef;
+  padding: 30px 5px;
+  text-align: center;
+  color: #a5a5a5;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 13px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.616);
+}
+
+.box-4 {
+  background-color: #ced7ef;
+  padding: 30px 5px;
+  text-align: center;
+  color: #a5a5a5;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 13px;
+  box-shadow: -3px -3px 6px rgba(0, 0, 0, 0.616);
+}
+
+.box-5 {
+  background-color: #ced7ef;
+  padding: 30px 5px;
+  text-align: center;
+  color: #a5a5a5;
+  width: 260px;
+  margin-top: 10px;
+  margin-left: 13px;
+  box-shadow: 12px 8px 0px rgba(0, 0, 0, 0.616);
+}
