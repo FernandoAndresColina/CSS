@@ -1,6 +1,6 @@
 # Guía de instalación con Vite + Sass
 
-1. Instalar Node versión 22.12
+1. Instalar Node versión 22.12 o LTS
 2. npm create vite@latest sass-vite-template
 3. cd sass-vite-template
 4. npm i
