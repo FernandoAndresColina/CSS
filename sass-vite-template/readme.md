@@ -4,14 +4,5 @@
 2. npm create vite@latest sass-vite-template
 3. cd sass-vite-template
 4. npm i
-5. npm i sass --save-dev, para instalar npm y guardarlo en el package.json
-6. Crear fichero de configuración vite.config.js para conseguir que los enlaces de los archivos sean relativos.
-
-"import { defineConfig } from "vite";
-
-export default defineConfig({
-base: "./",
-});
-"
-
-7. npm run build
+5. npm i sass --save-dev
+6. Crear fichero de configuración vite.config.js para conseguir que los enlaces de los archivos sean relativos

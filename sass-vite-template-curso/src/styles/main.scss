@@ -1,0 +1,8 @@
+@use "header.scss";
+
+$colors: red, green, blue, yellow;
+@each $color in $colors {
+  .bg-#{$color} {
+    background-color: $color;
+  }
+}

@@ -1,8 +1,10 @@
-@use "header.scss";
+@use '_variables-primarias' as vp;
+@use '_variables-tema' as vt;
 
-$colors: red, green, blue, yellow;
-@each $color in $colors {
-  .bg-#{$color} {
-    background-color: $color;
-  }
+h1 {
+  color: vt.$primary-color;
+}
+
+p {
+  color: vt.$secondary-color;
 }
