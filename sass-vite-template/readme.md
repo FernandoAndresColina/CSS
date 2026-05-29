@@ -15,4 +15,4 @@ base: "./",
 });
 "
 
-7. npm run build
+8. npm run build
