@@ -22,6 +22,20 @@
 // 6. Themes
 @use "themes/default";
 
-body {
-  background-color: yellow;
+@use "./abstracts/mixins" as *;
+
+h1 {
+  color: red;
+  @include breakpoint(tablet) {
+    color: green;
+  }
+  @include breakpoint(tablethorizontal) {
+    color: yellow;
+  }
+  @include breakpoint(dekstop) {
+    color: purple;
+  }
+  @include breakpoint(desktopxl) {
+    color: pink;
+  }
 }
