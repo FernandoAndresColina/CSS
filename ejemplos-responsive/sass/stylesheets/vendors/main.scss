@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+// 1. Vendors
+@use "@sass/stylesheets/vendors/normalize";
+
+// 2. Base stuff
+@use "@sass/stylesheets/base/base";
+@use "@sass/stylesheets/base/fonts";
+@use "@sass/stylesheets/base/helpers";
+@use "@sass/stylesheets/base/typography";
+
+// 3. Layout-related sections
+@use "@sass/stylesheets/layout/footer";
+@use "@sass/stylesheets/layout/header";
+
+// 4. Components
+@use "@sass/stylesheets/components/button";
+
+// 5. Pages
+@use "@sass/stylesheets/pages/home";
+
+// 6. Themes
+@use "@sass/stylesheets/themes/default";
+
+@use "@sass/stylesheets/abstracts/mixins" as m;
+
+h1 {
+  color: red;
+  @include m.breakpoint(tablet) {
+    color: green;
+  }
+  @include m.breakpoint(tablethorizontal) {
+    color: yellow;
+  }
+  @include m.breakpoint(dekstop) {
+    color: purple;
+  }
+  @include m.breakpoint(desktopxl) {
+    color: pink;
+  }
+}
