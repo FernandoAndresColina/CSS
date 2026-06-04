@@ -1,0 +1,29 @@
+@import "bulma/css/bulma.min.css";
+
+:root {
+  --primary: #eec3e8;
+  --secondary: #c9ebf7;
+  --accent: #71b0f4;
+  --background: #f0f7ff;
+  --foreground: #3d2930;
+  --radius: 1rem;
+  --text: #000;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.hero {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+}
+
+.navbar-burger,
+.navbar-burger:active {
+  color: var(--text);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
