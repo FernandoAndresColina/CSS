@@ -246,7 +246,7 @@ textarea {
 }
 
 /*
- * Proyecto aqui!
+ * Proyecto desde aqui!
  */
 
 :root {
@@ -263,9 +263,9 @@ body {
   background-color: var(--color-blue);
   font-family: var(--font-primary);
   background-image: url("../img/hero-background@2x.jpg");
-  background-position: top right;
+  background-position: top right -100px;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 50%;
 }
 
 .container {
@@ -282,6 +282,7 @@ header.main-header {
   display: flex;
   align-items: center;
   gap: 148px;
+  margin-bottom: 30px;
 }
 
 nav.main-menu {
@@ -299,9 +300,18 @@ nav.main-menu ul {
 
 nav.main-menu ul li:last-child {
   margin-left: auto;
+}
+
+nav.main-menu ul li:last-child a {
   display: inline-block;
   padding: 10px 15px;
   background-color: var(--color-blue);
+}
+
+nav.main-menu ul li:last-child a:hover {
+  color: var(--color-blue);
+  background-color: var(--color-white);
+  text-decoration: none;
 }
 
 nav.main-menu a {
@@ -319,4 +329,61 @@ nav.main-menu a:hover {
 section.hero {
   width: 55%;
   color: var(--color-white);
+  margin-bottom: 60px;
+}
+
+.hero_initial {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hero_title {
+  font-size: 55px;
+  line-height: 1.2em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.hero_suptitle {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.hero_button {
+  padding: 10px 15px;
+  background-color: var(--color-white);
+  text-decoration: none;
+  color: var(--color-black);
+  display: inline-flex;
+  align-items: center;
+}
+
+section.categories {
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  padding: 50px 110px;
+  transform: translateX(-150px);
+}
+
+.category_icon {
+  width: 50px;
+}
+
+.category_title {
+  font-size: 18px;
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.category_description {
+  font-weight: 300;
+  color: var(--color-grey);
+  font-size: 18px;
 }
