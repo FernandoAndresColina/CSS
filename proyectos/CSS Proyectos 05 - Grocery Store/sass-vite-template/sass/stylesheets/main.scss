@@ -7,14 +7,19 @@
 @use "base/base";
 @use "base/fonts";
 @use "base/helpers";
+@use "base/reset";
 @use "base/typography";
 
 // 3. Layout-related sections
+@use "layout/container";
 @use "layout/footer";
 @use "layout/header";
+@use "layout/navbar";
 
 // 4. Components
 @use "components/button";
+@use "components/food-type";
+@use "components/hero";
 
 // 5. Pages
 @use "pages/home";

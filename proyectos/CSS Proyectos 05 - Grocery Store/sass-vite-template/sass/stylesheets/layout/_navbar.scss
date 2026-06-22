@@ -1,0 +1,27 @@
+@use "../abstracts/" as abs;
+
+nav.nav-primary {
+  ul {
+    @include abs.reset-list();
+    gap: 50px;
+    a {
+      color: abs.$grey;
+      text-decoration: none;
+      font-weight: 300;
+      &.active,
+      &:hover {
+        color: abs.$orange;
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          height: 2px;
+          background-color: abs.$orange;
+          width: 80%;
+          bottom: -10px;
+          left: 10%;
+        }
+      }
+    }
+  }
+}

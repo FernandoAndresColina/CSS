@@ -5,10 +5,112 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sass-vite-template</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hola mundo</h1>
-    <p>Este es un parrafo</p>
-    <script type="module" src="src/main.js"></script>
+    <div class="container">
+      <header class="header"">
+        <a href="" class="header__logo">
+          <img
+            src="img/grocery-logo.svg"
+            width="175"
+            alt="Logotipo de Grocery Logo"
+          />
+        </a>
+
+        <nav class="nav-primary">
+          <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Sales</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__login">
+          <ul>
+            <li>
+              <a class="cart" href=""><img src="img/cart-icon.svg" alt="" /></a>
+            </li>
+            <li><a href="">Sing In</a></li>
+            <li><a class="btn" href="">Sign Up</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero__content">
+            <h1>
+              Let your <span class="color-orange">groceries</span> come to you
+            </h1>
+            <p class="hero__description">
+              Get fresh groceries online without stepping out to make delicious
+              food with the freshest ingredients
+            </p>
+
+            <div class="hero__search">
+              <input type="text" placeholder="Search here" />
+              <button><img src="img/search-icon.svg" alt="" /></button>
+            </div>
+
+            <ul class="hero__info">
+              <li>Fresh Vegetables</li>
+              <li>100% Guarantee</li>
+              <li>Cash on Delivery</li>
+              <li>Fast Delivery</li>
+            </ul>
+          </div>
+
+          <div class="hero__img">
+            <img src="img/man.png" alt="" />
+          </div>
+        </section>
+
+        <section class="food-type">
+          <article class="food-type__item">
+            <img class="food-type__item-img" src="img/dairy-icon.svg" alt="" />
+            <h3 class="food-type__item-title">Dairy Products</h3>
+            <p class="food-type__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+
+          <article class="food-type__item">
+            <img class="food-type__item-img" src="img/fv-icon.svg" alt="" />
+            <h3 class="food-type__item-title">Vegetables & Fruits</h3>
+            <p class="food-type__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+
+          <article class="food-type__item">
+            <img class="food-type__item-img" src="img/spices-icon.svg" alt="" />
+            <h3 class="food-type__item-title">Spices & Seasonings</h3>
+            <p class="food-type__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+
+          <article class="food-type__item">
+            <img class="food-type__item-img" src="img/honey-icon.svg" alt="" />
+            <h3 class="food-type__item-title">Honey</h3>
+            <p class="food-type__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+
+          <article class="food-type__item">
+            <img class="food-type__item-img" src="img/fluor-icon.svg" alt="" />
+            <h3 class="food-type__item-title">Flour</h3>
+            <p class="food-type__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

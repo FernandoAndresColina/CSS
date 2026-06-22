@@ -1,4 +1,4 @@
-@use '../abstracts';
+@use "../abstracts" as abs;
 
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
@@ -7,8 +7,8 @@
 /**
  * Set up a decent box model on the root element
  */
-html {
-  box-sizing: border-box;
+html * {
+  font-family: abs.$primary-font;
 }
 
 /**
@@ -17,21 +17,7 @@ html {
  * making all elements inheriting from the root box-sizing value
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 /**
  * Basic styles for links
  */
-a {
-  color: abstracts.$brand-color;
-  text-decoration: none;
-
-  @include abstracts.on-event {
-    color: abstracts.$text-color;
-    text-decoration: underline;
-  }
-}

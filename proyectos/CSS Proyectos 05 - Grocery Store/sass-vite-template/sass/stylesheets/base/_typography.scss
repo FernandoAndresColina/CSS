@@ -1,9 +1,18 @@
-@use '../abstracts';
+@use "../abstracts/" as abs;
 
 /**
  * Basic typography style for copy text
  */
-body {
-  color: abstracts.$text-color;
-  font: normal 125% / 1.4 abstracts.$text-font-stack;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: abs.$title-font;
+}
+
+a {
+  color: abs.$orange;
+  text-decoration: underline;
 }
