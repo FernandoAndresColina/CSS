@@ -1,0 +1,20 @@
+@use "../abstracts" as abs;
+
+.container {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  @include abs.breakpoint(tablet) {
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include abs.breakpoint(tablethorizontal) {
+    padding-top: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

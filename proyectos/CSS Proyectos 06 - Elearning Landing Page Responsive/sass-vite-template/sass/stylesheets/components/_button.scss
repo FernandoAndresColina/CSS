@@ -1,3 +1,20 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+@use "../abstracts" as abs;
+
+.button {
+  @include abs.button();
+}
+
+.button--pink-blue {
+  @include abs.button--pink-blue;
+}
+
+.button--pink-orange {
+  @include abs.button--pink-orange;
+}
+
+.button-link {
+  @include abs.button-link;
+}

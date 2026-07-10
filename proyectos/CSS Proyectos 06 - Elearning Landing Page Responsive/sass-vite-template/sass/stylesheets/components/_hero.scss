@@ -1,0 +1,153 @@
+@use "../abstracts" as abs;
+
+.hero {
+  margin-bottom: 140px;
+
+  &__title {
+    margin-bottom: 26px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+  }
+
+  &__subtitle {
+    margin-bottom: 26px;
+    color: abs.$grey;
+    line-height: 26px;
+  }
+
+  &__buttons {
+    margin-bottom: 46px;
+  }
+
+  &__img {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    @include abs.breakpoint(tablet) {
+      width: 50%;
+    }
+    @include abs.breakpoint(tablethorizontal) {
+      width: 50%;
+    }
+  }
+
+  &__number {
+    display: inline-block;
+    width: max-content;
+    background-color: white;
+    color: abs.$dark-blue;
+    padding: 5px;
+    gap: 10px;
+    text-align: left;
+    position: absolute;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px #ccc;
+    span {
+      display: block;
+    }
+
+    &-title {
+      font-size: 14px;
+      color: abs.$grey;
+      @include abs.breakpoint(desktop) {
+        font-size: 18px;
+      }
+    }
+
+    &-number {
+      font-size: 32px;
+      color: abs.$dark-blue;
+      font-weight: 700;
+      @include abs.breakpoint(desktop) {
+        font-size: 40px;
+      }
+    }
+
+    &-1 {
+      padding: 16px 20px 16px 20px;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      @include abs.breakpoint(tablet) {
+        padding: 20px 50px 20px 20px;
+        bottom: -53px;
+        left: -86px;
+      }
+      @include abs.breakpoint(tablethorizontal) {
+        padding: 30px 60px 20px 20px;
+        bottom: -122px;
+        left: 40px;
+      }
+      @include abs.breakpoint(desktop) {
+        padding: 30px 60px 20px 20px;
+        bottom: -120px;
+        left: 29px;
+      }
+      @include abs.breakpoint(desktopxl) {
+        padding: 30px 60px 20px 20px;
+        bottom: -70px;
+        left: 130px;
+      }
+    }
+
+    &-2 {
+      padding: 16px 20px 16px 20px;
+      top: 0;
+      right: 0;
+      position: absolute;
+      @include abs.breakpoint(tablet) {
+        padding: 19px 25px 19px 25px;
+        top: -28px;
+        right: 0px;
+      }
+      @include abs.breakpoint(tablethorizontal) {
+        padding: 30px 40px 30px 40px;
+        top: -75px;
+        right: 15px;
+      }
+      @include abs.breakpoint(desktop) {
+        padding: 30px 40px 30px 40px;
+        top: -35px;
+        right: 0px;
+      }
+      @include abs.breakpoint(desktopxl) {
+        padding: 30px 40px 30px 40px;
+        top: -35px;
+        right: -60px;
+      }
+    }
+  }
+
+  &__img-mobile {
+    @include abs.breakpoint(tablet) {
+      display: none;
+    }
+  }
+
+  .container {
+    @include abs.breakpoint(tablet) {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 80px;
+    }
+
+    @include abs.breakpoint(tablethorizontal) {
+      padding-bottom: 100px;
+    }
+  }
+
+  &__content {
+    @include abs.breakpoint(tablet) {
+      width: 60%;
+    }
+    @include abs.breakpoint(tablethorizontal) {
+      width: 400px;
+    }
+
+    @include abs.breakpoint(desktop) {
+      max-width: 400px;
+    }
+  }
+}

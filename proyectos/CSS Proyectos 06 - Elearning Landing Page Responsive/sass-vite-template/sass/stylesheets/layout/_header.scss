@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+@use "../abstracts" as abs;
+
+header.header-principal {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 38px;
+  @include abs.breakpoint(tablethorizontal) {
+    margin-bottom: 100px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      @include abs.reset-list();
+    }
+  }
+}

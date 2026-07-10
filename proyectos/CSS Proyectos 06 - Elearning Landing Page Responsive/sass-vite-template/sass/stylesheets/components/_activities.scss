@@ -1,0 +1,79 @@
+@use "../abstracts" as abs;
+
+.activities {
+  padding-bottom: 40px;
+  background: abs.$gradient-main;
+  @include abs.breakpoint(tablet) {
+    padding-bottom: 80px;
+  }
+  &__header {
+    background-image: abs.$gradient-orange-pink;
+    padding: 25px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    @include abs.breakpoint(tablet) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item {
+    padding: 1rem 2rem;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 28px 40px;
+    position: relative;
+    @include abs.breakpoint(tablet) {
+      margin-bottom: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-icon {
+      width: 56px;
+      height: 56px;
+      background: abs.$gradient-orange-pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      position: absolute;
+      left: 20px;
+      top: -25px;
+    }
+
+    &-title {
+      color: abs.$dark-blue;
+      font-size: 20px;
+      margin-bottom: 28px;
+    }
+
+    &-description {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 300;
+      color: abs.$grey;
+      margin-bottom: 28px;
+    }
+
+    &-cta {
+    }
+  }
+
+  .container {
+    @include abs.breakpoint(tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px 40px;
+    }
+
+    @include abs.breakpoint(tablethorizontal) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 80px 40px;
+    }
+  }
+}
