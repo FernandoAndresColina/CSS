@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+@use "../abstracts" as abs;
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__login {
+    ul {
+      @include abs.reset-list();
+      gap: 25px;
+      font-size: 16px;
+      font-weight: 300;
+
+      .side_icon {
+        img {
+          width: 25px;
+        }
+      }
+      .cart {
+        padding-right: 65px;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+/**
+ * Basic typography style for copy text
+ */
+
+@use "../abstracts" as abs;
+
+a {
+  color: abs.$color-darkblue;
+  text-decoration: underline;
+}

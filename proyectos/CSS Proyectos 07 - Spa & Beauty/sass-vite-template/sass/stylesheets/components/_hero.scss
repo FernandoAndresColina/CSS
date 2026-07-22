@@ -1,0 +1,142 @@
+@use "../abstracts" as abs;
+
+.hero {
+  display: flex;
+  width: 100%;
+  &__container {
+    display: flex;
+    width: 100%;
+  }
+  &__content {
+    width: 50%;
+    margin-top: 70px;
+    padding: 20px;
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: abs.$color-darkblue;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: abs.$color-gray;
+      margin-bottom: 35px;
+    }
+  }
+  &__agenda {
+    ul {
+      @include abs.reset-list();
+      margin-bottom: 80px;
+
+      li {
+        display: flex;
+        align-items: center;
+        .btn {
+          margin-right: 45px;
+        }
+        img {
+          background-color: white;
+          border-radius: 50%;
+          padding: 10px;
+          width: 35px;
+          box-shadow: 0px 8px 20px rgb(0 0 0 / 20%);
+          margin-right: 12px;
+        }
+        span {
+          color: abs.$color-darkblue;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  &__bio {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: white;
+    max-width: 80%;
+
+    article {
+      text-align: center;
+      padding: 25px 0px;
+      img {
+        width: 65px;
+        padding: 6px;
+        background-color: abs.$color-cyan;
+        border-radius: 50%;
+        margin-bottom: 14px;
+      }
+      h3 {
+        font-size: 30px;
+        font-weight: 400;
+        padding-bottom: 18px;
+        color: abs.$color-darkblue;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  &__woman {
+    flex: 1;
+    img {
+      max-width: 680px;
+      position: relative;
+      left: -150px;
+      bottom: -33px;
+    }
+    .description {
+      position: absolute;
+      width: 50%;
+
+      .description-1 {
+        position: absolute;
+        width: 305px;
+        top: -560px;
+        left: 410px;
+        padding: 30px 20px 20px 20px;
+        background-color: rgb(255, 255, 255, 0.4);
+        backdrop-filter: blur(8px);
+        border-radius: 15px;
+      }
+      .description-2 {
+        position: absolute;
+        width: 345px;
+        top: -275px;
+        left: 221px;
+        padding: 30px 20px 20px 20px;
+        background-color: rgb(255, 255, 255, 0.4);
+        border-radius: 15px;
+        backdrop-filter: blur(8px);
+      }
+
+      .description-img {
+        width: 24px;
+        bottom: 5px;
+        left: 0px;
+      }
+
+      .flower-img {
+        position: relative;
+        img {
+          position: absolute;
+          left: 162px;
+          bottom: 363px;
+          width: 458px;
+          z-index: -1;
+        }
+      }
+
+      p {
+        padding-bottom: 10px;
+      }
+      h3 {
+        color: abs.$color-darkblue;
+      }
+    }
+  }
+}
