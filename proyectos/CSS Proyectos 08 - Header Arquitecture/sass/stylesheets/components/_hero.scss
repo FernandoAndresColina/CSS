@@ -1,0 +1,41 @@
+@use "../abstracts" as abs;
+.hero {
+  &__content {
+    max-width: 50%;
+    h1 {
+      font-family: abs.$secondary-font;
+      color: abs.$black-color;
+      font-weight: 300;
+      font-size: 60px;
+      line-height: 90px;
+      margin-bottom: 32px;
+    }
+    p {
+      color: abs.$black-opacity-color;
+      max-width: 75%;
+      font-size: 17px;
+      line-height: 30px;
+      margin-bottom: 56px;
+    }
+  }
+  &__button {
+    margin-bottom: 120px;
+    .btn {
+      &-1 {
+        @include abs.button();
+      }
+      &-2 {
+        @include abs.button();
+        background-color: abs.$background01-color;
+        color: abs.$black-color;
+        &:hover {
+          background-color: abs.$background02-color;
+        }
+      }
+    }
+    img {
+      width: 20px;
+      margin-left: 8px;
+    }
+  }
+}

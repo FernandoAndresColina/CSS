@@ -4,8 +4,138 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
 /**
  * Basic typography style for copy text
  */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #f5f5f5 100%, #f5f5f5 100%), linear-gradient(to right, #dedad5 100%, #dedad5 100%);
+  background-size: 50% 100%, 50% 100%;
+  background-repeat: no-repeat;
+  background-position: top left, top right;
+}
+
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+nav.nav-primary ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 410px;
+}
+nav.nav-primary ul a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+nav.nav-primary ul a:hover {
+  color: #424241;
+}
+nav.nav-primary ul span {
+  color: #424241;
+}
+nav.nav-primary ul span:hover {
+  color: #dedad5;
+}
+
+.hero__content {
+  max-width: 50%;
+}
+.hero__content h1 {
+  font-family: "Playfair Display", serif;
+  color: #424241;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 90px;
+  margin-bottom: 32px;
+}
+.hero__content p {
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 75%;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+.hero__button {
+  margin-bottom: 120px;
+}
+.hero__button .btn-1 {
+  display: inline-flex;
+  align-items: center;
+  background-color: #424241;
+  padding: 14px 25px;
+  color: white;
+  text-decoration: none;
+}
+.hero__button .btn-1:hover {
+  background-color: #dedad5;
+  color: #424241;
+}
+.hero__button .btn-2 {
+  display: inline-flex;
+  align-items: center;
+  background-color: #424241;
+  padding: 14px 25px;
+  color: white;
+  text-decoration: none;
+}
+.hero__button .btn-2:hover {
+  background-color: #dedad5;
+  color: #424241;
+}
+.hero__button .btn-2 {
+  background-color: #f5f5f5;
+  color: #424241;
+}
+.hero__button .btn-2:hover {
+  background-color: #dedad5;
+}
+.hero__button img {
+  width: 20px;
+  margin-left: 8px;
+}
+
+.numbers {
+  max-width: 40%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+.numbers__number {
+  text-align: center;
+}
+.numbers__number h3 {
+  font-size: 50px;
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@use "../abstracts" as abs;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image:
+    linear-gradient(
+      to right,
+      abs.$background01-color 100%,
+      abs.$background01-color 100%
+    ),
+    linear-gradient(
+      to right,
+      abs.$background02-color 100%,
+      abs.$background02-color 100%
+    );
+  background-size:
+    50% 100%,
+    50% 100%;
+  background-repeat: no-repeat;
+  background-position:
+    top left,
+    top right;
+}

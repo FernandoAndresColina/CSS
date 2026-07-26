@@ -29,3 +29,25 @@
     }
   }
 }
+
+// Reset list
+@mixin reset-list() {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+@mixin button() {
+  display: inline-flex;
+  align-items: center;
+  background-color: v.$black-color;
+  padding: 14px 25px;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    background-color: v.$background02-color;
+    color: v.$black-color;
+  }
+}
