@@ -1,7 +1,7 @@
 @use "../abstracts" as abs;
 
 .numbers {
-  max-width: 40%;
+  max-width: 550px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -11,6 +11,16 @@
     h3 {
       font-size: 50px;
       font-weight: 400;
+      margin: 0;
+      color: abs.$black-color;
+      text-align: start;
+    }
+    p {
+      max-width: 100px;
+      text-align: left;
+      font-size: 16px;
+      color: abs.$grey-color;
+      line-height: 30px;
     }
   }
 }

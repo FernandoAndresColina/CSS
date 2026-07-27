@@ -1,5 +1,6 @@
 @use "../abstracts" as abs;
 .hero {
+  display: flex;
   &__content {
     max-width: 50%;
     h1 {
