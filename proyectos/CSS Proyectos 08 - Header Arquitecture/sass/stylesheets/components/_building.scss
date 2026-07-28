@@ -1,11 +1,42 @@
+@use "../abstracts" as abs;
+
 .building {
   position: relative;
   .building01 {
     position: absolute;
-    width: 400px;
+    max-width: 385px;
     left: -197px;
     z-index: -1;
   }
   .building02 {
+    position: absolute;
+    left: 230px;
+    max-width: 385px;
+    z-index: -1;
+  }
+  .data {
+    background-color: white;
+    padding: 20px 150px 0px 30px;
+    position: absolute;
+    top: 440px;
+    left: 253px;
+    ul {
+      @include abs.reset-list();
+      display: inline-flex;
+      flex-direction: column;
+      align-items: start;
+      li {
+        display: inline-flex;
+        align-items: center;
+        padding-bottom: 25px;
+        font-size: 14px;
+        justify-content: space-between;
+
+        span {
+          color: abs.$grey-color;
+          padding-right: 10px;
+        }
+      }
+    }
   }
 }

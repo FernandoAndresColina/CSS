@@ -7,20 +7,21 @@
       font-family: abs.$secondary-font;
       color: abs.$black-color;
       font-weight: 300;
-      font-size: 60px;
+      font-size: 65px;
       line-height: 90px;
       margin-bottom: 32px;
     }
     p {
       color: abs.$black-opacity-color;
-      max-width: 75%;
-      font-size: 17px;
+      max-width: 85%;
+      font-size: 20px;
+      font-weight: 300;
       line-height: 30px;
       margin-bottom: 56px;
     }
   }
   &__button {
-    margin-bottom: 120px;
+    margin-bottom: 90px;
     .btn {
       &-1 {
         @include abs.button();
